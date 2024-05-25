@@ -100,7 +100,7 @@ def main():
     UnzipToLocation(chosenFile, dst, True)
     print("完成。")
   else:
-    print("跳过应用更新")
+    print("没有检测到要应用的更新，遂跳过。")
 
   print('MCSA 已就绪。')
   input('[Enter] 退出...')
